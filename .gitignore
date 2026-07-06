@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+frontend/dist/
+backend/target/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+backend/.mvn/
+backend/mvnw.cmd
+
+# Spring Boot
+backend/src/main/resources/application-secret.properties

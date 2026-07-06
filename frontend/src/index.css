@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #F0F4F8;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #f1f1f1; border-radius: 4px; }
+::-webkit-scrollbar-thumb { background: #1565C0; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #0D47A1; }
+
+/* Toastify overrides */
+.Toastify__toast { border-radius: 12px !important; font-family: 'Inter', sans-serif !important; font-weight: 500 !important; }
+.Toastify__toast--success { background: linear-gradient(135deg, #2E7D32, #388E3C) !important; }
+.Toastify__toast--error { background: linear-gradient(135deg, #C62828, #D32F2F) !important; }
+.Toastify__toast--info { background: linear-gradient(135deg, #1565C0, #1976D2) !important; }
+.Toastify__toast--warning { background: linear-gradient(135deg, #F57C00, #FF9800) !important; }
+
+/* Smooth transitions */
+.MuiCard-root, .MuiButton-root, .MuiIconButton-root { transition: all 0.2s ease !important; }
+
+/* Table row hover */
+.MuiTableRow-root:hover { cursor: default; }
